@@ -1,0 +1,55 @@
+LOG_PATH_IS_UNDEFINED
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+
+!jarWithManifest.jar
+
+src_managed
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.project
+.settings
+.checkstyle
+
+.gradle/
+build/
+out/
+target/
+
+.gradletasknamecache
+.DS_Store
+
+logs/
+transaction-logs/
+
+# User-specific stuff:
+.idea/*
+.idea
+!.idea/copyright/*
+
+*.iml
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Log file
+*.log
+
+# SonarRunner for SonarQube
+.sonar
+
+# Avro file
+*.avsc
