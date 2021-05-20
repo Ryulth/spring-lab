@@ -39,5 +39,4 @@ class BookRepositoryImpl(
     }
 
     companion object : KLogging()
-
 }

@@ -2,10 +2,11 @@ plugins {
     base
     id("org.jetbrains.kotlin.jvm") version "1.4.32"
     id("org.jetbrains.kotlin.kapt") version "1.4.32"
-    id("org.springframework.boot") version "2.4.3"
+    id("org.springframework.boot") version "2.4.5"
     id("org.jetbrains.kotlin.plugin.spring") version "1.4.32"
     id("org.jetbrains.kotlin.plugin.jpa") version "1.4.32"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
+    id("org.jlleitschuh.gradle.ktlint") version "10.0.0"
 }
 
 val javaVersion = JavaVersion.VERSION_1_8.toString()
@@ -42,7 +43,6 @@ dependencies {
     implementation("org.hibernate:hibernate-entitymanager:5.4.31.Final")
     implementation("org.hibernate:hibernate-validator:7.0.1.Final")
     implementation("org.glassfish:jakarta.el:4.0.1")
-
 }
 
 tasks {
