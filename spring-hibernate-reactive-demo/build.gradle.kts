@@ -43,6 +43,9 @@ dependencies {
     implementation("org.hibernate:hibernate-entitymanager:5.4.31.Final")
     implementation("org.hibernate:hibernate-validator:7.0.1.Final")
     implementation("org.glassfish:jakarta.el:4.0.1")
+
+    testImplementation("io.projectreactor:reactor-test:3.4.6")
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
 tasks {
