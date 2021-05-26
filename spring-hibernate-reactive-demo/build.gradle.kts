@@ -11,7 +11,7 @@ plugins {
 
 val javaVersion = JavaVersion.VERSION_1_8.toString()
 
-group = "com.linkit"
+group = "com.ryulth.springlab"
 
 repositories {
     mavenCentral()
