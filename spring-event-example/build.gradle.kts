@@ -36,9 +36,6 @@ dependencies {
 
     implementation("org.springframework.boot:spring-boot-starter-webflux")
 
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    runtimeOnly("com.h2database:h2")
-
     testImplementation("io.projectreactor:reactor-test:3.4.6")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
